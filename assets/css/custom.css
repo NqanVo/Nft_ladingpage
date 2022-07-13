@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap');
+*{padding: 0;margin: 0;box-sizing: border-box;}
+body{
+    font-family: 'Play', sans-serif;
+    font-weight: 400;
+    line-height: 44px;
+}
+
+
+
+.text-logo{
+  background: linear-gradient(95deg, #FA00FF 1.92%, rgba(78, 106, 255, 0.88) 104.39%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

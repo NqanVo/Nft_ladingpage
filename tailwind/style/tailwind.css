@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.page{
+    @apply
+    relative 
+    flex 
+    flex-col 
+    gap-[40px] 
+    md:gap-[70px] 
+    w-auto 
+    lg:mx-auto 
+    w-[1280px] 
+    py-[25px] 
+    px-[50px] 
+    md:px-[108px] 
+
+    bg-gradient-to-br 
+    from-[#FFFFFF] 
+    via-[#A6BAFF] 
+    to-[#EA89FF]
+    
+    dark:bg-gradient-to-br 
+    dark:from-[#000000] 
+    dark:via-[#00057C] 
+    dark:to-[#7700B7]
+}
+
+.li-link {
+  @apply dark:text-white cursor-pointer hover:text-[#e571ff] hover:drop-shadow-[0_0_20px_#A6BAFF] dark:hover:text-[#e571ff] dark:hover:drop-shadow-[0_0_20px_#A6BAFF] transition-all;
+}
+
+.li-btn {
+  @apply dark:text-white
+    dark:border-white 
+    cursor-pointer 
+    hover:text-[#e571ff]
+    hover:drop-shadow-[0_0_20px_#A6BAFF]
+    dark:hover:text-[#e571ff] 
+    dark:hover:drop-shadow-[0_0_20px_#A6BAFF]
+    hover:border-[#e571ff]
+    dark:hover:border-[#e571ff] 
+    transition-all py-[3px]
+    px-[5px] lg:py-[12px] 
+    lg:px-[38px]
+    rounded-xl 
+    lg:rounded-[60px] 
+    border-[2px]
+    lg:border-[5px]
+    border-black 
+    leading-5 
+    text-center 
+    lg:leading-normal;
+}
